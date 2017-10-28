@@ -98,7 +98,7 @@ you will probably need to install it globally.
 
 - On Debian-flavored linux you can use `apt-get install graphviz`.
 - On OSX, you can use `brew install graphgiz`
-- On windows you can download it from [here](http://www.graphviz.org/Download_windows.php)
+- On windows you can download it from [here](http://www2.graphviz.org/download/)
     - Please note that I have not tested this myself so we may need to do a bit of troubleshooting!
   
 ### Step 3 - Start your environment
