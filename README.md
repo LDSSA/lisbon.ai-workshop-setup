@@ -78,6 +78,28 @@ Take a note of the filepath on which you cloned the repo!
 
 Note that if you choose this option, you will need to have your
 [ssh keys set up](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+
+### Install graphviz and bokeh
+
+If you are using the docker option, these steps aren't necessary.
+
+From the Anaconda Navigator interface do the following:
+
+1. Select the `root` environment
+1. On the right hand panel, which to `Not installed` on the leftmost dropdown
+1. On the right hand search bar, search for
+    1. `bokeh` - then install it
+    1. `graphviz` - then install it
+    1. `python-graphviz` - and install it
+    
+Once this is done, you are all good to go with bokeh but not graphviz!
+In order to get some binaries that graphviz needs on the system path
+you will probably need to install it globally.
+
+- On Debian-flavored linux you can use `apt-get install graphviz`.
+- On OSX, you can use `brew install graphgiz`
+- On windows you can download it from [here](http://www.graphviz.org/Download_windows.php)
+    - Please note that I have not tested this myself so we may need to do a bit of troubleshooting!
   
 ### Step 3 - Start your environment
 
